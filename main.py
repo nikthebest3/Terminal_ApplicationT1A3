@@ -1,23 +1,23 @@
-# from colored import fg, attr, bg
-# from todo_functions import add_todo, remove_todo, mark_todo, view_todo
+from colored import fg, attr, bg
+from info_functions import add_name, add_suburb, remove_info, view_info
 
 file_name = "list.csv"
 
 try:
   # open the file in read mode
-  todo_file = open(file_name, "r")
-  todo_file.close()
+  info_file = open(file_name, "r")
+  info_file.close()
   print("Storage file active")
   # if it throws error, it means the file doesn't exist
   # if no error, it means the file exists
 except FileNotFoundError:
   # Now, we know the file doesn't exist
   # Create the file
-  todo_file = open(file_name, "w")
+  info_file = open(file_name, "w")
   # We can also insert the first line into the file
-  todo_file.write("Information Storage File\n")
-  todo_file.close()
-  print("In except block")
+  info_file.write("Information Storage File\n")
+  info_file.close()
+  # print("In except block")
 
 print(f"{fg('white')}{bg('blue')}Welcome to Information Storage file!{attr('reset')}")
 
@@ -35,17 +35,17 @@ users_choice = ""
 while users_choice != "5":
   users_choice = create_menu()
   if (users_choice == "1"):
-    add_todo(file_name)
+    add_name(file_name)
   elif (users_choice == "2"):
-    remove_todo(file_name)
+    add_suburb(file_name)
   elif (users_choice == "3"):
-    mark_todo(file_name)
+    remove_info(file_name)
   elif (users_choice == "4"):
-    view_todo(file_name)
+    view_info(file_name)
   elif (users_choice == "5"):
     continue
   else:
-    print("Invalid Input")
+    print("Please try again")
     
 
-print("Thank you for using todo list")
+print("Do not share this Information with the public!")
