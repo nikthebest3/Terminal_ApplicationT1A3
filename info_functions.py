@@ -23,12 +23,16 @@ def add_suburb(file_name):
 def remove_info(file_name):
   print("Remove Info")
   remove_info = input("Enter the Name/Suburb you want to remove: ")
+  # Will remove the selected line the user chooses
+  # while doing this we will check condition
   info_lists = []
   with open(file_name, "r") as f:
     reader = csv.reader(f)
     for row in reader:
-      if (add_suburb != row[0]):
+      if (add_name == row[0]):
         info_lists.append(row)
+      elif (add_suburb == row[0]):
+        info_lists.append(row)  
   with open(file_name, "w") as f:
     writer = csv.writer(f)
     writer.writerows(info_lists)
@@ -37,7 +41,7 @@ def view_info(file_name):
   print("View Info")
   with open(file_name, "r") as f:
     reader = csv.reader(f)
-    reader.__next__()
+    # reader.__next__()
     for row in reader:
       # # row = ["Todo 1", "False"]
       # if (row[1] == "True"):
