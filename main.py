@@ -47,3 +47,4 @@ while users_choice != "5":
     
 
 print("Do not share this Information with the public!")
+print("Thank you for using Info Storage, Have a nice day!")
