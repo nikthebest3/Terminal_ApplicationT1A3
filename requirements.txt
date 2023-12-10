@@ -1,0 +1,5 @@
+colored==2.2.3
+python3
+pytest
+venv
+bash

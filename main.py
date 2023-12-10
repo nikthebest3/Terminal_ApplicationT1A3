@@ -8,8 +8,7 @@ try:
   info_file = open(file_name, "r")
   info_file.close()
   print("Storage file active")
-  # if it throws error, it means the file doesn't exist
-  # if no error, it means the file exists
+  # If the csv file doesn't exist, it will create one
 except FileNotFoundError:
   # Now, we know the file doesn't exist
   # Create the file
@@ -17,14 +16,13 @@ except FileNotFoundError:
   # We can also insert the first line into the file
   info_file.write("Information Storage File\n")
   info_file.close()
-  # print("In except block")
-
+  print("Storage File Active")
 print(f"{fg('white')}{bg('blue')}Welcome to Information Storage file!{attr('reset')}")
 
 def create_menu():
   print("1. Enter your First Name")
   print("2. Enter your State & Suburb")
-  print("3. Enter 3 to Remove Name or State/Suburb")
+  print("3. Enter 3 to remove all Information Details ")
   print("4. Enter 4 to view Information List")
   print("5. Enter 5 to exit ")
   choice = input("Enter your information: ")

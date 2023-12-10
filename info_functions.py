@@ -22,7 +22,7 @@ def add_suburb(file_name):
 
 def remove_info(file_name):
   print("Remove Info")
-  remove_info = input("Enter the Name/Suburb you want to remove: ")
+  remove_info = input("Enter Number 3 to Delete all information")
   # Will remove the selected line the user chooses
   # while doing this we will check condition
   info_lists = []
