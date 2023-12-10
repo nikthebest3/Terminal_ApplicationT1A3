@@ -43,8 +43,4 @@ def view_info(file_name):
     reader = csv.reader(f)
     # reader.__next__()
     for row in reader:
-      # # row = ["Todo 1", "False"]
-      # if (row[1] == "True"):
         print({row[0]})
-      # else:
-      #   print(f"Todo: {row[0]} is not complete")

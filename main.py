@@ -27,7 +27,7 @@ def create_menu():
   print("3. Enter 3 to Remove Name or State/Suburb")
   print("4. Enter 4 to view Information List")
   print("5. Enter 5 to exit ")
-  choice = input("Enter your selection: ")
+  choice = input("Enter your information: ")
   return choice
 
 users_choice = ""
