@@ -21,11 +21,11 @@ print(f"{fg('white')}{bg('blue')}Welcome to Information Storage file!{attr('rese
 print(f"{fg('white')}{bg('red')}Do NOT share this Information with the public!{attr('reset')}")
 
 def create_menu():
-  print("1. Enter your First Name")
-  print("2. Enter your State & Suburb")
+  print("1. Enter your First Name ")
+  print("2. Enter your State & Suburb ")
   print("3. Enter 3 to confirm to Delete all information ")
-  print("4. Enter 4 to view Information List")
-  print("5. Enter 5 to exit ")
+  print("4. Enter 4 to view Information List ")
+  print("5. Enter 5 to exit the Program ")
   choice = input("Enter your selection: ")
   return choice
 
@@ -48,4 +48,4 @@ while users_choice != "5":
     
 
 print(f"{fg('white')}{bg('red')}Do NOT share this Information with the public!{attr('reset')}")
-print("Thank you for using Info Storage, Have a nice day!")
+print(f"{fg('white')}{bg('green')}Thank you for using Info Storage, Have a nice day!{attr('reset')}")
