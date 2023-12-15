@@ -22,9 +22,9 @@ def add_suburb(file_name):
 
 def remove_info(file_name):
   print("Remove Info")
-  remove_info = input("Enter Number 3 to Delete all information")
-  # Will remove the selected line the user chooses
-  # while doing this we will check condition
+  remove_info = input("Enter 3 to confirm to Delete all info ")
+  # Will remove all information in the list.csv file, incase of data breach etc.
+  # This is for Companies that ask their customers to fill out info for analytics purposes. 
   info_lists = []
   with open(file_name, "r") as f:
     reader = csv.reader(f)

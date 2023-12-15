@@ -18,14 +18,15 @@ except FileNotFoundError:
   info_file.close()
   print("Storage File Active")
 print(f"{fg('white')}{bg('blue')}Welcome to Information Storage file!{attr('reset')}")
+print(f"{fg('white')}{bg('red')}Do NOT share this Information with the public!{attr('reset')}")
 
 def create_menu():
   print("1. Enter your First Name")
   print("2. Enter your State & Suburb")
-  print("3. Enter 3 to remove all Information Details ")
+  print("3. Enter 3 to confirm to Delete all information ")
   print("4. Enter 4 to view Information List")
   print("5. Enter 5 to exit ")
-  choice = input("Enter your information: ")
+  choice = input("Enter your selection: ")
   return choice
 
 users_choice = ""
@@ -43,8 +44,8 @@ while users_choice != "5":
   elif (users_choice == "5"):
     continue
   else:
-    print("Please try again")
+    print(f"{fg('white')}{bg('blue')}Not a valid Input, Please try again!{attr('reset')}")
     
 
-print("Do not share this Information with the public!")
+print(f"{fg('white')}{bg('red')}Do NOT share this Information with the public!{attr('reset')}")
 print("Thank you for using Info Storage, Have a nice day!")
