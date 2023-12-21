@@ -47,5 +47,5 @@ while users_choice != "5":
     print(f"{fg('white')}{bg('blue')}Not a valid Input, Please try again!{attr('reset')}")
     
 
-print(f"{fg('white')}{bg('red')}Do NOT share this Information with the public!{attr('reset')}")
-print(f"{fg('white')}{bg('sky_blue_3')}Thank you for using Info Storage, Have a nice day!{attr('reset')}")
+print(f"{fg('red')}{bg('')}Do NOT share this Information with the public!{attr('reset')}")
+print(f"{fg('sky_blue_3')}{bg('')}Thank you for using Info Storage, Have a nice day!{attr('reset')}")
