@@ -43,4 +43,4 @@ def view_info(file_name):
     reader = csv.reader(f)
     # reader.__next__()
     for row in reader:
-        print({row[0]})
+        print(row[0])
