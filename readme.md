@@ -24,7 +24,6 @@ Thank you for choosing Information Storage and hope you find it useful!
 `This terminal app has been tested on a Mac running the new Silicon Processor with Mac OSX Sonoma for your information...`
 `Also has been tested on Windows 10 with Core i5 CPU, 16GB ram...`
 
-Link to video of Terminal Application and Slide Deck:
-`Youtube: `
-
 Will put the Powerpoint/Slide Deck presentation into the Terminal Application folder with all other items.
+
+This Readme is for Example Purposes. Actualy Readme.md file will be put in the Actual Folder.
