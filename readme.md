@@ -8,7 +8,7 @@ The requirements for this Terminal is;
 colored ==2.2.3
 python3
 pytest
-venv
+venv (Virtual Enviornment)
 bash
 GitHub
 Bash / VS Code / Terminal
