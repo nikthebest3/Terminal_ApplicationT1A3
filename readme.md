@@ -18,6 +18,7 @@ Loguru extension
 <!-- PLEASE NOTE: Computer Specs required:
 Atleast a computer with a Core i3 and above, with 8GB or more Ram.
 Mac computer with Silicon Chip or a Core i5 and above and 8GB or more Ram.
+Latest version of VS Code is advised...
 
 Compatible with Mac OS High Sierra or higher and Windows 10 or Later -->
 
