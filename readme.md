@@ -12,6 +12,8 @@ venv
 bash
 GitHub
 Bash / VS Code / Terminal
+scipy, numpy extensions
+Loguru extension
 
 <!-- PLEASE NOTE: Computer Specs required:
 Atleast a computer with a Core i3 and above, with 8GB or more Ram.
